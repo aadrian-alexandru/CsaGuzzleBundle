@@ -12,11 +12,11 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/csarrazi/guzzle-history-middleware"
+            "url": "https://github.com/valkars/guzzle-history-middleware"
         },
         {
             "type": "git",
-            "url": "https://github.com/csarrazi/guzzle-stopwatch-middleware"
+            "url": "https://github.com/valkars/guzzle-stopwatch-middleware"
         }
     ],
     "require": {
