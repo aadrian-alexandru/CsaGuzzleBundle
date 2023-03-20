@@ -9,11 +9,21 @@
             "email": "charles@sarraz.in"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/csarrazi/guzzle-history-middleware"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/csarrazi/guzzle-stopwatch-middleware"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "kevinrob/guzzle-cache-middleware": "^4.0",
-        "csa/guzzle-history-middleware": "^1.0.0",
-        "csa/guzzle-stopwatch-middleware": "^1.0.0",
+        "csa/guzzle-history-middleware": "^1.0",
+        "csa/guzzle-stopwatch-middleware": "^1.0",
         "guzzlehttp/guzzle": "^6.1 || ^7.0",
         "symfony/dependency-injection": "^5.3 || ^6.0",
         "symfony/filesystem": "^5.3 || ^6.0",
