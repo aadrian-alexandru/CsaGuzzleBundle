@@ -1,5 +1,5 @@
 {
-    "name": "bywulf/guzzle-bundle",
+    "name": "aadrian-alexandru/guzzle-bundle",
     "type": "symfony-bundle",
     "description": "A bundle integrating GuzzleHttp >= 4.0",
     "license": "Apache-2.0",
@@ -22,7 +22,7 @@
     },
     "require-dev": {
         "namshi/cuzzle": "^2.0",
-        "phpunit/phpunit": "^8.0",
+        "phpunit/phpunit": "^8.0 || ^9.0",
         "symfony/phpunit-bridge": "^5.3 || ^6.0",
         "symfony/web-profiler-bundle": "^5.3 || ^6.0",
         "symfony/yaml": "^5.3 || ^6.0",
@@ -36,7 +36,7 @@
         "tolerance/tolerance": "Allows retrying failed requests"
     },
     "replace": {
-        "csa/guzzle-bundle": "*"
+        "csa/guzzle-bundle": ">3.2"
     },
     "extra": {
         "branch-alias": {
