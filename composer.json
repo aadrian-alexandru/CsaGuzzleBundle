@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "csa/guzzle-cache-middleware": "^1.0.0",
+        "kevinrob/guzzle-cache-middleware": "^4.0",
         "csa/guzzle-history-middleware": "^1.0.0",
         "csa/guzzle-stopwatch-middleware": "^1.0.0",
         "guzzlehttp/guzzle": "^6.1 || ^7.0",
